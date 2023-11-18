@@ -1,0 +1,141 @@
+* {
+    color: rgb(90, 90, 218);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+#mainDiv{
+    height: 100%;
+    width: 100%;
+    display: flex;
+
+}
+
+#leftDiv{
+    width: 40%;
+    height: 100%;
+    /* background-color: rgba(215,209,197,255) ; */
+    background-image: url(flower.png);
+    /* justify-content: center; */
+    /* align-items: center; */
+    background-size: cover;
+    background-position: top;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#leftDiv img{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 12%;
+}
+#rightDiv{
+    width: 60%;
+    height: 100%;
+    background-color: aqua;
+}
+#rightTopDiv{
+    height: 10%;
+    width: 100%;
+    background-color: rgba(210,200,191,255);
+}
+#rightTopDiv h2{
+    margin-left: 3%;
+    color: black;
+}
+#rightMidDiv{
+    height: 50%;
+    width: 100%;
+    display: flex;
+}
+#rightMidLeftDiv{
+    height: 100%;
+    width: 45%;
+    background-color: rgba(210,200,191,255);
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+
+}
+#rightMidLeftPicDiv{
+    height: 90%;
+    width: 85%;
+    background-image: url(product.png);
+    background-size: cover;
+    background-position: absolute;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 18%;
+    margin-right: 20%;
+}
+
+#rightMidRightDiv{
+    height: 100%;
+    width: 55%;
+    background-color: rgba(210,200,191,255) ;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#rightMidRightDiv h3{
+    color: black;
+    margin-top: 15%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+#rightMidRightDiv p{
+    color: black;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+#rightBottomDiv{
+    height: 40%;
+    width: 100%;
+    display: flex;   
+}
+#rightBottomLeftDiv{
+    height: 100%;
+    width: 60%;
+    background-color: rgba(210,200,191,255) ;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+#rightBottomLeftDiv h3{
+    color: black;
+    margin-top: 15%;
+   margin-left: 10%;
+   margin-right: 10%;
+}
+#rightBottomLeftDiv p{
+    color: black;
+    margin-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+ }
+#rightBottomRightDiv{
+    height: 100%;
+    width: 40%;
+    background-color: rgba(210,200,191,255) ;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-color: black;
+    border-width: 1px;
+    background-image: url(logo.png);
+    background-size: cover;
+
+}
