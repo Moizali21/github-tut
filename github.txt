@@ -10,3 +10,9 @@ error
 git branch -M master
 git remote add origin <github repo link>
 git push -u origin master
+
+same file changes 
+
+git add .
+git commit -m "your commit"
+git push -u origin master
